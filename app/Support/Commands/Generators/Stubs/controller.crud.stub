@@ -1,0 +1,38 @@
+<?php
+
+namespace {{ namespace }};
+use App\Http\Controllers\Controller;
+use App\Support\Core\Crud\WithDatatable;
+use App\Support\Core\Crud\WithDestroy;
+use App\Support\Core\Crud\WithForm;
+use App\Support\Core\Crud\WithStore;
+use App\Support\Core\Crud\WithUpdate;
+use Illuminate\Database\Eloquent\Model;
+use App\Domain\{{ domain }}\Datatables\{{ datatable }};
+use App\Domain\{{ domain }}\Models\{{ model }};
+
+class {{ class }} extends Controller
+{
+    use WithDatatable, WithForm, WithStore, WithUpdate, WithDestroy;
+
+    protected string $path = '{{ path }}';
+
+    protected string $datatable = {{ datatable }}::class;
+
+    protected string $model = {{ model }}::class;
+
+
+    protected function rules()
+    {
+        return [
+
+        ];
+    }
+
+    protected function formData(?Model $model = null): array
+    {
+        return [
+
+        ];
+    }
+}

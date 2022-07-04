@@ -1,0 +1,5 @@
+<x-pages.crud
+    :name="__('{{ name }}')"
+    route="{{ route }}"
+    :datatable="$dataTable"
+/>

@@ -1,0 +1,8 @@
+[28-Apr-2022 21:49:00 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/demoasoltec/public_html/reflectionstravel/app/Support/helper.php on line 41
+[28-Apr-2022 21:50:32 UTC] PHP Parse error:  syntax error, unexpected '|', expecting ';' or '{' in /home/demoasoltec/public_html/reflectionstravel/vendor/symfony/process/PhpExecutableFinder.php on line 32
+[28-Apr-2022 21:53:38 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/demoasoltec/public_html/reflectionstravel/app/Support/helper.php on line 41
+[28-Apr-2022 21:54:26 UTC] PHP Parse error:  syntax error, unexpected '|', expecting ';' or '{' in /home/demoasoltec/public_html/reflectionstravel/vendor/symfony/process/PhpExecutableFinder.php on line 32
+[30-Apr-2022 19:51:02 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 36864 bytes) in /home/demoasoltec/public_html/reflectionstravel/vendor/nunomaduro/collision/src/Highlighter.php on line 195
+[30-Apr-2022 19:51:02 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/demoasoltec/public_html/reflectionstravel/vendor/nunomaduro/collision/src/Highlighter.php on line 138
+[30-Apr-2022 19:53:25 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 36864 bytes) in /home/demoasoltec/public_html/reflectionstravel/vendor/nunomaduro/collision/src/Highlighter.php on line 195
+[30-Apr-2022 19:53:25 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/demoasoltec/public_html/reflectionstravel/vendor/nunomaduro/collision/src/Highlighter.php on line 138

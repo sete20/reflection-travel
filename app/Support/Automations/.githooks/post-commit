@@ -1,0 +1,4 @@
+#!/bin/sh
+
+exec composer fix > /dev/null;
+exec git add . && git commit -m "automation:code style fix";
